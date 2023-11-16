@@ -19,7 +19,7 @@ async def start(client, message):
         buttons = [[           
             InlineKeyboardButton('📢 Uᴩᴅᴀᴛᴇꜱ 📢', url=f'https://t.me/{SUPPORT_CHAT}')
             ],[
-            InlineKeyboardButton('ℹ️ Hᴇʟᴩ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
+            InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴘ 🔈', url=f"https://t.me/SG_Movies1")
         ]]
         await message.reply(START_MESSAGE.format(user=message.from_user.mention if message.from_user else message.chat.title, bot=client.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)                    
         await asyncio.sleep(2) 
@@ -35,13 +35,15 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("Sᴇᴀʀᴄʜ 🔎", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/saurabh_1710")
+            InlineKeyboardButton("Mᴏᴠɪᴇ Bᴏᴛ 𝟷", url="https://t.me/Movie_4_All_Bot"), 
+            InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 🔈", url="https://t.me/SG_Movies1")
             ],[      
-            InlineKeyboardButton("Hᴇʟᴩ 🕸️", callback_data="help"),
+            InlineKeyboardButton("Mᴏᴠɪᴇ Bᴏᴛ 𝟸", url="https://t.me/SG_Movie_Filter_Bot"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
+        ],[      
+            InlineKeyboardButton("Rᴇᴘᴏʀᴛ Iꜱꜱᴜᴇ Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ 💬", url="https://t.me/Developer_DM_Bot")
         ]]
-        m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ") 
+        m = await message.reply_sticker("CAACAgQAAxkBAAIND2VWOC2UwJg6cfU8wcB4NVKNhcMfAALUAgACcnEXJVQhiQMcUCh8HgQ") 
         await asyncio.sleep(2)
         await message.reply_photo(photo=random.choice(PICS), caption=START_MESSAGE.format(user=message.from_user.mention, bot=client.mention), reply_markup=InlineKeyboardMarkup(buttons), parse_mode=enums.ParseMode.HTML)
         return await m.delete()
@@ -71,13 +73,15 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("Sᴇᴀʀᴄʜ 🔎", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/saurabh_1710")
+            InlineKeyboardButton("Mᴏᴠɪᴇ Bᴏᴛ 𝟷", url="https://t.me/Movie_4_All_Bot"), 
+            InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 🔈", url="https://t.me/SG_Movies1")
             ],[      
-            InlineKeyboardButton("Hᴇʟᴩ 🕸️", callback_data="help"),
+            InlineKeyboardButton("Mᴏᴠɪᴇ Bᴏᴛ 𝟸", url="https://t.me/SG_Movie_Filter_Bot"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
+        ],[      
+            InlineKeyboardButton("Rᴇᴘᴏʀᴛ Iꜱꜱᴜᴇ Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ 💬", url="https://t.me/Developer_DM_Bot")
         ]]
-        m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ")
+        m = await message.reply_sticker("CAACAgQAAxkBAAIND2VWOC2UwJg6cfU8wcB4NVKNhcMfAALUAgACcnEXJVQhiQMcUCh8HgQ")
         await asyncio.sleep(2)
         await message.reply_photo(photo=random.choice(PICS), caption=START_MESSAGE.format(user=message.from_user.mention, bot=client.mention), reply_markup=InlineKeyboardMarkup(buttons), parse_mode=enums.ParseMode.HTML)
         return await m.delete()
