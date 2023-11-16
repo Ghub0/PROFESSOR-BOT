@@ -8,14 +8,14 @@ I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
     ABOUT_TXT = """<b>✯ Mʏ ɴᴀᴍᴇ: {}
-✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/Developer_DM_Bot'>𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁</a>
+✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/Developer_DM_Bot>𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁</a>
 ✯ Cᴏᴅᴇᴅ Oɴ: ᴩʏᴛʜᴏɴ/ᴩʏʀᴏɢʀᴀᴍ
 ✯ Mʏ DᴀᴛᴀBᴀꜱᴇ: ᴍᴏɴɢᴏ-ᴅʙ
 ✯ Mʏ Sᴇʀᴠᴇʀ: ᴀɴʏᴡʜᴇʀᴇ
 ✯ Mʏ Vᴇʀꜱɪᴏɴ: ᴠ4.5.0</b>"""
    
     SOURCE_TXT = """<b>NOTE:</b>
-- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://t.me/Developer_DM_Bot></a>
+- ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a> href=https://t.me/Developer_DM_Bot</a>
 
 <b>ᴅᴇᴠ: <a herf=https://t.me/Developer_DM_Bot</a></b>"""
 
@@ -140,7 +140,7 @@ Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
 ◉ ᴍᴇᴍʙᴇʀꜱ: <code>{d}</code>
 ◉ ᴀᴅᴅᴇᴅ ʙʏ: {e}
 
-◉ ʙʏ: @{f}</b>"""
+◉ ʙʏ: {f}</b>"""
   
     LOG_TEXT_P = """#ɴᴇᴡ_ᴜꜱᴇʀ
     
