@@ -101,8 +101,9 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
         message = msg   
         if message.text.startswith("/"): return  # ignore commands
         if re.findall("((^\/|^,|^!|^\.|^[\U0001F600-\U000E007F]).*)", message.text): return
-        if 2 < len(message.text) < 100:
-            search = message.text
+        if len(message.sticker) < 100:
+            search = message.sticker
+            m=await message.reply_sticker("CAACAgUAAxkBAAINE2VXHXJfHRyi4Sn--Wd6Pj4R54gLAAKcAAPIlGQUc48AAfPaxYX8HgQ")
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
             if not files: return await pm_spoll_choker(msg)              
         else: return 
